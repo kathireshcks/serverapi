@@ -5,8 +5,6 @@ const User=require('../models/user');
 const Chart=require('../models/chartdata');
 
 const mongoose=require('mongoose');
-//const db="mongodb://kathirkokila:12439361cks@ds241530.mlab.com:41530/kathircks";
-//const db="mongodb://kathirkokila:12439361cks@ds241530.mlab.com:41530/kathircks";
 var db = "mongodb://localhost:27017/users";
 
 mongoose.connect(db,err =>{
